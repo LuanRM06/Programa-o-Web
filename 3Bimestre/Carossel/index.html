@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>VideoPlayer integrado no html</title>
+  </head>
+  <body>
+    <div id="SecaoVideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HmkbBdD8044?si=ufCa5GHThtbub7Jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <div id="titulovideo">
+        <h1>Show da cantora Ado em Los Angeles cantando "Aishite"
+        </h1>
+        <p id="textovideo">
+            Ado é uma cantora e compositora japonêsa. Em 2020, aos 17 anos, ela estreou com o single digital intitulado "Usseewa", que alcançou a posição número 1 na Billboard Japan Hot 100, Oricon Digital Singles Chart e Oricon Streaming Chart
+        </p>
+    </div>
+  </div>
+  <div id="secaocarrossel">
+    <h1>Seu canal tem mais de 3.000.000.000 de visualizações </h1>
+<div id="cards">
+<img id="setaesquerda" onclick="DeslizarParaEsquerda()" class="seta"  src="setaesquerda.svg" alt="">
+<img id="samantha" src="samantha.svg" class="card" alt="">
+<img id="bruna" src="bruna.svg" class="card" alt="">
+<img id="leonardo" src="leonardo.svg" class="card" alt="">
+<img id="setadireita" onclick="DeslizarParaDireita()" class="seta" src="setadireita.svg" alt="">
+
+</div>
+  </div>
+
+  <script src="index.js"></script>
+  </body>
+</html>

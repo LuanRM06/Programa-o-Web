@@ -1,0 +1,75 @@
+#SecaoVideo {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+    background-color: #Ff0000;
+}
+
+#SecaoVideo iframe{
+    border-radius: 20px;
+}
+
+html{
+    background-color: #Ff0000;
+}
+
+body{
+    margin:0px;
+}
+
+#titulovideo{
+    padding: 50px;  
+}
+
+#textovideo{
+    display: flex;
+    align-content: center;
+        color: #ffffff;
+        font-size: 14px;
+}
+#h1{
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+#secaocarrossel{
+    background-color: #Ff0000;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+ 
+}
+
+#cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta:hover{
+ transform: translateX(7px);
+ transition: 0.5s;
+}
+
+.seta{
+    margin-top: 50%;
+    cursor: pointer;
+    
+}
+
